@@ -39,12 +39,31 @@
     var firstName = 'Stephanie';
     var middleName = 'Adeline';
     var lastName = 'Nolastname';
-    var fullName = firstName + ' ' + middleName + ' ' + lastName;
+    var fullName = firstName + ' ' + middleName + ' ' + lastName; //Needs a space inside string
 
     console.log(fullName);
 
+    console.log ('Using Functions');
 
+    //makes a number into its second power
+    function makeSquare (theNum) {
+        var squared = theNum * theNum;
+        return squared;
+    }
+    var try01 = makeSquare (3);
+    console.log(try01);
+
+    console.log(makeSquare (7));
+
+    var try03 = makeSquare (19);
+    console.log (try03);
+
+        function makeName (first, second, third) {
+        var name = first + ' ' + second + ' ' + third;
+        return name;
+    }
     
+    console.log (makeName('Robert', 'Beto', "O'Rourke"));
 </script>
 </body>
 </html>

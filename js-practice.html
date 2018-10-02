@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    console.log("Let's do math");
+
+    let x = 5; //assigning the value
+    console.log (x); //says 5 because 5 is assigned to x. variable is a container
+
+    // x = 3; //you cannot redeclare let, but can change it
+    // console.log (x);
+
+    const y = 3; //cannot reassign a const
+    console.log (y);
+
+    var z = x * y; //can both change value and reinstantiate it (most permissive). will get confusing when we get to functions.
+    console.log (z);
+    /* if you only do x = 5, it makes it a var even without saying "var." but this is global. DON'T DO THIS */
+
+    var zAdd = x + y;
+    console.log(zAdd);
+
+    var zSubtract = x - y;
+    console.log(zSubtract);
+
+    var zDivide = x / y;
+    console.log(zDivide);
+
+    /* use good variable names. don't just use generic ones like x, y or z. name should represent what the variable is.
+    also always use camelCase.*/
+    
+
+    
+</script>
+</body>
+</html>
